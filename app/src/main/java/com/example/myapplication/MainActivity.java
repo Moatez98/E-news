@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                         Intent i=new Intent(getApplicationContext(),home.class);
                         startActivity(i);
                     }else{
-                        Toast.makeText(getApplicationContext(),"mot de pass ghalet",Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"mot de passe ghalet",Toast.LENGTH_LONG).show();
                     }
 
                 }
