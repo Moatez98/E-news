@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:gravity="center"
+        android:textSize="33dp"
+        android:text="Authentification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+   <LinearLayout
+        android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:text="login"
+           android:layout_height="wrap_content">
+
+
+       </TextView>
+       <EditText
+           android:id="@+id/email"
+           android:hint="mail"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       </EditText>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="mot de passe"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+        <EditText
+            android:id="@+id/password"
+            android:hint="pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </LinearLayout>
+    <Button
+
+        android:id="@+id/btnlogin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connexion">
+
+    </Button>
+</LinearLayout>
